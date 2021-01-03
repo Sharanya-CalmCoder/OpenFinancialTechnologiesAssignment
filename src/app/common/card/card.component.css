@@ -1,0 +1,25 @@
+  #image-element{
+    top: 33.72px;
+    left: 34.02px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  #title-element{
+    top: 143px;
+    left: 34px;
+    position: absolute;
+  }
+
+  #text-element{
+    top: 173px;
+    left: 34px;
+    position: absolute;
+  }
+
+  .card-container {
+   height: 100%;
+   width: 100%;
+  }
+
+ 

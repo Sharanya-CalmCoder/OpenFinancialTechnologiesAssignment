@@ -1,0 +1,344 @@
+.container {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #FCFCFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#background-image-right {
+  top: -227.9068603515625px;
+  left: 852px;
+  width: 1183px;
+  height: 1192px;
+  transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+  background: transparent url(src/assets/images/circle.svg) 0% 0% no-repeat border-box;
+  background-size: 1183px 1192px;
+  position:absolute;
+}
+
+#background-image-bottom{
+  top: 1209px;
+  background-image: url(src/assets/images/sol_wave_bg.svg);
+  z-index:2;
+  position:absolute;
+  width: 1920px;
+  height: 936px;
+  background-size: cover;
+}
+
+#background-image-left{
+  top: 213px;
+  left: -179px;
+  width: 571px;
+  height: 572px;
+  background: transparent url(src/assets/images/blob-small.svg)  0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+#text-element-2{
+  top: 168.29px;
+  left: 1158.68px;
+  opacity: 1;
+  position: absolute;
+}
+
+#text-element-2 img{
+  width: 490px;
+  height: 98px;
+}
+
+#text-element-1{
+  top:270px;
+  left:189px;
+  opacity: 1;
+  position: absolute;
+}
+
+#text-element-1 img{
+  width: 407px;
+  height: 98px;
+}
+
+#collect-img{
+  top:466px;
+  left: 136px; 
+  opacity: 1;
+  position: absolute;
+}
+
+#collect-img img{
+  width: 652px;
+  height: 365px;
+}
+
+#group_6_img{
+  top:270px;
+  left:1100px;
+  opacity: 1;
+  position: absolute;
+}
+
+#group_6_img img{
+  width: 688px;
+  height: 675px;
+}
+
+#accounting_dots_1{
+  top:796px;
+  left: 462px;
+  width: 430px;
+  height: 70px;
+  opacity: 0.5;
+  position: absolute;
+  background: transparent url(src/assets/images/accounting_dots.svg) 0% no-repeat padding-box;
+}
+
+#accounting_dots_2{
+  top: 887px;
+  left: 1458px;
+  width: 430px;
+  height: 70px;
+  opacity: 0.5;
+  position: absolute;
+  background: transparent url(src/assets/images/accounting_dots.svg) 0% no-repeat padding-box;
+}
+
+#line_3{
+  top:319.11px;
+  left:1158.11px;
+  position: absolute;
+  opacity: 1;
+}
+
+#line_3 img{
+  width: 120.44px;
+  height: 0px;
+  border: 6px solid #707070;
+  border-radius: 13px
+}
+
+#text-element-3{
+  top:352.29px;
+  left: 1157.68px;
+  position: absolute;
+  opacity: 1;
+}
+
+#text-element-3 img{
+  width: 490px;
+  height: 44px;
+}
+
+.button3{
+  width: 279px;
+  height: 58px;
+  box-shadow: 0px 0px 20px #00000033;
+  border: 2px solid #663399;
+  border-radius: 24px;
+  opacity: 1;
+  position: absolute;
+  left: 1157.68px;
+  top: 477.29px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #663399;
+  opacity: 1;
+}
+
+#card-1{
+  bottom: 755px;
+  left: 190.68px;
+  background: transparent url('src/assets/images/Rectangle Copy 23.svg') 50% no-repeat padding-box;
+  position: absolute;
+  width: 391px;
+  height: 253px;
+  box-shadow: 0px 0px 30px #2321321F;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#card-2{
+  top: 577.29px;
+  left: 190.68px;
+  background: transparent url('src/assets/images/Rectangle Copy 17.svg') 50% no-repeat padding-box;
+  position: absolute;
+  width: 391px;
+  height: 253px;
+  box-shadow: 0px 0px 30px #2321321F;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#card-3{
+  top: 241.29px;
+  left: 190.68px;
+  background: transparent url('src/assets/images/Rectangle Copy 19.svg') 50% no-repeat padding-box;
+  position: absolute;
+  width: 391px;
+  height: 253px;
+  box-shadow: 0px 0px 30px #2321321F;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#card-4{
+  top: 52.29px;
+  left: 629.68px;
+  background: transparent url('src/assets/images/Rectangle 2.svg') 50% no-repeat padding-box;
+  position: absolute;
+  width: 390px;
+  height: 272px;
+  opacity: 1;
+}
+
+#card-5{
+  top: 384.29px;
+  left: 629.68px;
+  background: transparent url('src/assets/images/Rectangle Copy 19.svg') 50% no-repeat padding-box;
+  position: absolute;
+  width: 390px;
+  height: 272px;
+  box-shadow: 0px 0px 30px #2321321F;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+#line-1{
+  top: 376px;
+  left: 192px;
+  background: #000000  0% no-repeat padding-box;
+  border-radius: 13px;
+  opacity: 0.7;
+  position: absolute;
+  width: 236px;
+  height: 8px;
+}
+
+#logo{
+  left: 120px;
+  top:27px;
+  position: absolute;
+  opacity: 1;
+  overflow: hidden;
+}
+
+#log img{
+  width: 123px;
+  height: 123px;
+}
+
+#nav-bar-text-1{
+  top: 68px;
+  left: 1030px;
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  width: 103px;
+  height: 34px;
+  position: absolute;
+}
+
+#nav-bar-text-2{
+  top: 68px;
+  left: 1183px;
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  width: 103px;
+  height: 34px;
+  position: absolute;
+}
+
+#nav-bar-text-3{
+  top: 68px;
+  left: 1341px;
+  text-align: left;
+  font: normal normal normal 25px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  width: 103px;
+  height: 34px;
+  position: absolute;
+}
+
+.button1{
+  top: 63px;
+  left: 1480px;
+  width: 118px;
+  height: 45px;
+  box-shadow: 0px 0px 20px #00000033;
+  border: 2px solid #663399;
+  border-radius: 24px;
+  opacity: 1;
+  position: absolute;
+}
+
+.button1 div{
+  width: 46px;
+  height: 19px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #663399;
+  opacity: 1;
+  display: contents;
+}
+
+.button2{
+  top: 63px;
+  left: 1622px;
+  width: 166px;
+  height: 45px;
+  background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00000033;
+  border-radius: 24px;
+  opacity: 1;
+  position: absolute;
+  border: none;
+}
+
+.button2 div{
+  width: 94px;
+  height: 19px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  display: contents;
+}
+
+#path-img-1{
+  top:51.05px;
+  left: 33.42px;
+  position: absolute;
+  opacity: 1;
+}
+
+#path-img-1 img{
+  width: 12px;
+  height: 12px;
+}
+
+#path-img-2{
+  top: 65.5px;
+  left: 35.83px;
+  position: absolute;
+  opacity: 1;
+}
+
+#path-img-2 img{
+  width: 7px;
+  height: 7px;
+}
