@@ -1,9 +1,6 @@
 .container {
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 1080px;
+  width: 93.7vw;
+  height: 100vw;
   background: #FCFCFF 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -11,12 +8,15 @@
 #background-image-right {
   top: -227.9068603515625px;
   left: 852px;
-  width: 1183px;
-  height: 1192px;
-  transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
-  background: transparent url(src/assets/images/circle.svg) 0% 0% no-repeat border-box;
-  background-size: 1183px 1192px;
   position:absolute;
+  overflow: hidden;
+}
+
+#circle-image{
+    display: inline-block;
+    width: 78.2vw;
+    height: 100vw;
+    overflow: hidden;
 }
 
 #background-image-bottom{
@@ -44,11 +44,13 @@
   left: 1158.68px;
   opacity: 1;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #text-element-2 img{
   width: 490px;
   height: 98px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #text-element-1{
@@ -56,11 +58,13 @@
   left:189px;
   opacity: 1;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #text-element-1 img{
   width: 407px;
   height: 98px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #collect-img{
@@ -76,15 +80,15 @@
 }
 
 #group_6_img{
-  top:270px;
+  top:234px;
   left:1100px;
   opacity: 1;
   position: absolute;
+  height: 675px;
 }
 
 #group_6_img img{
-  width: 688px;
-  height: 675px;
+  object-fit: cover;
 }
 
 #accounting_dots_1{
@@ -98,7 +102,7 @@
 }
 
 #accounting_dots_2{
-  top: 887px;
+  top: 936px;
   left: 1458px;
   width: 430px;
   height: 70px;
@@ -126,17 +130,18 @@
   left: 1157.68px;
   position: absolute;
   opacity: 1;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #text-element-3 img{
   width: 490px;
   height: 44px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 .button3{
   width: 279px;
   height: 58px;
-  box-shadow: 0px 0px 20px #00000033;
   border: 2px solid #663399;
   border-radius: 24px;
   opacity: 1;
@@ -147,8 +152,24 @@
   letter-spacing: 0px;
   color: #663399;
   opacity: 1;
+  background-color: transparent;
 }
 
+.button3 div{
+  width: 198px;
+  height: 22px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #663399;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  top: 18.27px;
+  left: 33.54px;
+  position: absolute;
+  font-size: 17px;
+}
 #card-1{
   bottom: 755px;
   left: 190.68px;
@@ -240,6 +261,7 @@
   left: 1030px;
   text-align: left;
   font: normal normal normal 25px/34px Open Sans;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0px;
   color: #222222;
   opacity: 1;
@@ -253,6 +275,7 @@
   left: 1183px;
   text-align: left;
   font: normal normal normal 25px/34px Open Sans;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0px;
   color: #222222;
   opacity: 1;
@@ -266,6 +289,7 @@
   left: 1341px;
   text-align: left;
   font: normal normal normal 25px/34px Open Sans;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0px;
   color: #222222;
   opacity: 1;
@@ -279,11 +303,11 @@
   left: 1480px;
   width: 118px;
   height: 45px;
-  box-shadow: 0px 0px 20px #00000033;
   border: 2px solid #663399;
   border-radius: 24px;
   opacity: 1;
   position: absolute;
+  background-color: transparent;
 }
 
 .button1 div{
@@ -294,6 +318,9 @@
   color: #663399;
   opacity: 1;
   display: contents;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .button2{
@@ -302,7 +329,6 @@
   width: 166px;
   height: 45px;
   background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 20px #00000033;
   border-radius: 24px;
   opacity: 1;
   position: absolute;
@@ -317,6 +343,9 @@
   color: #FFFFFF;
   opacity: 1;
   display: contents;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 #path-img-1{
